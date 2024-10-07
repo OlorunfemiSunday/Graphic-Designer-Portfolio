@@ -172,9 +172,10 @@ html {
 /*hero section*/
 span {
   background: linear-gradient(90deg, #fcd0d0, #6b57ed);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 8rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 .hero-section {
   display: flex;
@@ -389,11 +390,11 @@ span {
 
 .skills-container button {
   background: linear-gradient(to right, #fb9e2d, #746ac4);
-  width: 10vw;
+  width: 10vw !important;
   font-family: poppins;
 }
 .skills-container button:hover {
-  width: 26vw;
+  width: 26vw !important;
 }
 .skills-container button::before {
   content: "Download";
@@ -463,10 +464,10 @@ span {
   }
 }
 .skills-container button {
-  width: 40vw;
+  width: 40vw !important;
 }
 .skills-container button:hover {
-  width: 56vw;
+  width: 56vw !important;
 }
 
 /*projects section*/
